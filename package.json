@@ -1,34 +1,33 @@
 {
-    "name": "cyberpunk-2077-rebuild",
-    "displayName": "Cyberpunk 2077 rebuild",
-    "description": "Cyberpunk 2077 Theme extension",
-    "version": "0.0.7",
+    "name": "quasar-theme",
+    "displayName": "Quasar",
+    "description": "Starforge Quasar palette on top of the Cyberpunk 2077 rebuild theme",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.0.0"
     },
-    "repository": {
-        "name":"https://github.com/carlos18mz/Cyberpunk-2077-rebuild"
-    },
-    "publisher": "carlos18mz",
+    "publisher": "starforge-systems",
     "author": {
-        "name":"carlos18mz"
+        "name": "Starforge Systems"
     },
     "license": "MIT",
-    "homepage": "",
     "keywords": [
-        "vs code cyberpunk 2077 theme"
+        "quasar",
+        "starforge",
+        "dark theme"
     ],
-    "icon":"icon.jpg",
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "build": "node scripts/build.mjs"
+    },
     "contributes": {
-
         "themes": [
             {
-                "label": "Cyberpunk 2077 rebuild",
+                "label": "Quasar",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Cyberpunk 2077 rebuild-color-theme.json"
+                "path": "./themes/quasar-color-theme.json"
             }
         ]
     }

@@ -1,0 +1,1344 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "notice-100",
+				"background": "card-900"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "error-300"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "accent-200"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "debug-300"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"name": "Other Variable, String Link",
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "highlight-100"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "deco-neon"
+			}
+		},
+		{
+			"name": "Keyword, Unit",
+			"scope": [
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "accent-300"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "highlight-100"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "debug-200"
+			}
+		},
+		{
+			"name": "Entity Types",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "debug-200"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Sub-methods",
+			"scope": [
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
+			],
+			"settings": {
+				"foreground": "debug-200"
+			}
+		},
+		{
+			"name": "Language methods",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "accent-300"
+			}
+		},
+		{
+			"name": "entity.name.method.js",
+			"scope": [
+				"entity.name.method.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "meta.method.js",
+			"scope": [
+				"meta.class-method.js entity.name.function.js",
+				"variable.function.constructor"
+			],
+			"settings": {
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "deco-sodium"
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": [
+				"text.html.basic entity.other.attribute-name.html",
+				"text.html.basic entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "deco-sodium"
+			}
+		},
+		{
+			"name": "CSS Classes",
+			"scope": [
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "debug-200"
+			}
+		},
+		{
+			"name": "CSS ID's",
+			"scope": [
+				"source.sass keyword.control"
+			],
+			"settings": {
+				"foreground": "promo-400"
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "highlight-100"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "error-300"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": [
+				"string.regexp"
+			],
+			"settings": {
+				"foreground": "deco-argon"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "deco-argon"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "promo-400"
+			}
+		},
+		{
+			"name": "ES7 Bind Operator",
+			"scope": [
+				"source.js constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "error-300"
+			}
+		},
+		{
+			"name": "JSON Key - Level 0",
+			"scope": [
+				"source.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "accent-200"
+			}
+		},
+		{
+			"name": "JSON Key - Level 1",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "JSON Key - Level 2",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "deco-neon"
+			}
+		},
+		{
+			"name": "JSON Key - Level 3",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "debug-200"
+			}
+		},
+		{
+			"name": "JSON Key - Level 4",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "error-300"
+			}
+		},
+		{
+			"name": "JSON Key - Level 5",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "promo-400"
+			}
+		},
+		{
+			"name": "JSON Key - Level 6",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "deco-sodium"
+			}
+		},
+		{
+			"name": "JSON Key - Level 7",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "accent-200"
+			}
+		},
+		{
+			"name": "JSON Key - Level 8",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "highlight-100"
+			}
+		},
+		{
+			"name": "Markdown - Plain",
+			"scope": [
+				"text.html.markdown",
+				"punctuation.definition.list_item.markdown"
+			],
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline",
+			"scope": [
+				"text.html.markdown markup.inline.raw.markdown"
+			],
+			"settings": {
+				"foreground": "accent-200"
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline Punctuation",
+			"scope": [
+				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+			],
+			"settings": {
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markdown - Line Break",
+			"scope": [
+				"text.html.markdown meta.dummy.line-break"
+			],
+			"settings": {
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"markdown.heading",
+				"markup.heading | markup.heading entity.name",
+				"markup.heading.markdown punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "highlight-100"
+			}
+		},
+		{
+			"name": "Markup - Italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Markup - Bold",
+			"scope": [
+				"markup.bold",
+				"markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Markup - Bold-Italic",
+			"scope": [
+				"markup.bold markup.italic",
+				"markup.italic markup.bold",
+				"markup.quote markup.bold",
+				"markup.bold markup.italic string",
+				"markup.italic markup.bold string",
+				"markup.quote markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Markup - Underline",
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "deco-neon"
+			}
+		},
+		{
+			"name": "Markup - Strike",
+			"scope": [
+				"markup.strike"
+			],
+			"settings": {
+				"fontStyle": "strike",
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markdown - Blockquote",
+			"scope": [
+				"markup.quote punctuation.definition.blockquote.markdown"
+			],
+			"settings": {
+				"background": "card-300",
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markup - Quote",
+			"scope": [
+				"markup.quote"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": [
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "highlight-100"
+			}
+		},
+		{
+			"name": "Markdown - Link Description",
+			"scope": [
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "accent-200"
+			}
+		},
+		{
+			"name": "Markdown - Link Anchor",
+			"scope": [
+				"constant.other.reference.link.markdown"
+			],
+			"settings": {
+				"foreground": "alert-100"
+			}
+		},
+		{
+			"name": "Markup - Raw Block",
+			"scope": [
+				"markup.raw.block"
+			],
+			"settings": {
+				"foreground": "accent-200"
+			}
+		},
+		{
+			"name": "Markdown - Raw Block Fenced",
+			"scope": [
+				"markup.raw.block.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "card-950/31"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block",
+			"scope": [
+				"punctuation.definition.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "card-950/31"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block Variable",
+			"scope": [
+				"markup.raw.block.fenced.markdown",
+				"variable.language.fenced.markdown",
+				"punctuation.section.class.end"
+			],
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Language",
+			"scope": [
+				"variable.language.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markdown - Separator",
+			"scope": [
+				"meta.separator"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"background": "card-950/31",
+				"foreground": "card-300"
+			}
+		},
+		{
+			"name": "Markup - Table",
+			"scope": [
+				"markup.table"
+			],
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "notice-100"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "notice-100"
+			}
+		}
+	],
+	
+	
+	"colors": {
+			//Colors
+        //text inpút background : card-800
+        //editor background : card-900
+        //lateral bar tool foreground color : highlight-200
+
+		
+		"activityBar.background": "card-900",
+
+		//Contrast color
+		//"contrastActiveBorder":"card-900",
+		//"contrastBorder":"card-900",
+		
+  
+		//Base color
+		"focusBorder": "highlight-100",
+  
+  
+		"foreground":"highlight-100",
+		"widget.shadow":"alert-100",
+		"selection.background":"card-700",//?
+		"descriptionForeground":"alert-100",
+		"errorForeground":"error-300",//?
+		"icon.foreground":"highlight-100",//?
+  
+  
+		
+		//window
+		"window.activeBorder": "accent-200",
+		"window.inactiveBorder": "card-700",
+		"textBlockQuote.background":"highlight-100/44",
+		"textBlockQuote.border": "card-700",
+		"textLink.foreground": "highlight-100",
+		"textLink.activeForeground": "accent-200",
+		"textPreformat.foreground":"alert-100",
+		"textSeparator.foreground":"alert-100",//?
+  
+		
+  
+	  
+		//Text code block
+		"textCodeBlock.background": "card-900",
+		//button controll
+  
+		"button.background":"accent-300",
+		"button.foreground":"card-950",
+		"button.hoverBackground":"accent-200",
+		"button.secondaryForeground": "alert-100",
+		"button.secondaryBackground":"highlight-100",//?
+		"button.secondaryHoverBackground":"card-700",//?
+		"checkbox.background":"card-900",//?
+		"checkbox.foreground":"alert-100",//?
+		"checkbox.border": "card-600",//?
+  
+		
+		//dropdown
+		"dropdown.background":"card-800/79",
+		"dropdown.listBackground":"card-800/79",
+		"dropdown.border": "highlight-100",
+		"dropdown.foreground":"alert-100",
+		
+  
+		//input
+		"input.background":"card-800",
+		"input.border": "card-600",
+		"input.foreground": "alert-100",
+		"input.placeholderForeground": "card-500",
+  
+		//find and replace box
+		"inputOption.activeBackground": "card-900/73",
+		"inputOption.activeBorder": "accent-200",
+		"inputOption.activeForeground": "accent-200",
+  
+		
+		"inputValidation.errorBackground": "card-700",//?
+		"inputValidation.errorForeground": "alert-100",//?
+		"inputValidation.errorBorder": "error-300",//?
+		"inputValidation.infoBackground": "card-700",//?
+		"inputValidation.infoForeground": "alert-100",//?
+		"inputValidation.infoBorder": "card-600",//?
+		"inputValidation.warningBackground": "card-700",//?
+		"inputValidation.warningForeground": "alert-100",//?
+		"inputValidation.warningBorder": "alert-100",//?
+  
+		//Scrollbar controll
+		"scrollbar.shadow": "alert-100",
+		"scrollbarSlider.activeBackground": "highlight-100/23",
+		"scrollbarSlider.background": "highlight-100/29",
+		"scrollbarSlider.hoverBackground": "highlight-100/58",
+  
+		//badge
+		"badge.foreground": "card-950",
+		"badge.background": "accent-300",
+		
+		//progress bar
+		"progressBar.background": "accent-200",
+  
+  
+		//list files that contains code .cpp, .py. .dart
+		"list.activeSelectionBackground": "card-700",
+		"list.activeSelectionForeground": "accent-200",
+		"list.dropBackground": "card-700",
+		"list.focusBackground": "card-700",
+		"list.focusForeground": "accent-200",
+		"list.highlightForeground": "accent-200",
+		"list.hoverBackground": "card-700/42",
+		"list.hoverForeground": "accent-200",
+		"list.inactiveSelectionBackground": "card-800/42",
+		"list.inactiveSelectionForeground": "highlight-100",
+		"list.inactiveFocusBackground": "card-900",//?
+		"list.invalidItemForeground": "highlight-100/40",//?
+		"list.errorForeground": "error-400",//?
+		"list.warningForeground": "highlight-100",//?
+		"listFilterWidget.background": "card-700",//?
+		"listFilterWidget.outline": "card-600",//?
+		"listFilterWidget.noMatchesOutline": "card-700",//?
+		"list.filterMatchBackground": "card-700",//?
+		"list.filterMatchBorder": "highlight-100",//?
+		"tree.indentGuidesStroke": "highlight-100",//?
+		"list.deemphasizedForeground": "card-700",//?
+  
+		
+		//activity bar
+		//"activityBar.background":"card-900",
+		"activityBar.dropBorder": "accent-300/63",
+		"activityBar.foreground": "accent-200",
+		"activityBar.inactiveForeground": "highlight-100",
+		"activityBar.border": "card-700",
+		"activityBarBadge.background": "accent-300",
+		"activityBarBadge.foreground": "card-950",
+		"activityBar.activeBorder": "accent-200",
+		"activityBar.activeBackground": "card-700/47",
+		"activityBar.activeFocusBorder": "highlight-100",
+		
+		
+		//Sidebar files, search, extensions list
+		"sideBar.background": "card-950",
+		"sideBar.foreground": "highlight-100",
+		"sideBar.border": "card-700",
+		"sideBar.dropBackground": "card-700/47",
+		"sideBarTitle.foreground": "highlight-100",
+		"sideBarSectionHeader.background": "card-700",
+		"sideBarSectionHeader.border": "card-700",
+		"sideBarSectionHeader.foreground": "highlight-100",
+	  
+  
+  
+		//minimap on right screen
+		"minimap.findMatchHighlight": "accent-300",
+		"minimap.selectionHighlight": "highlight-100",
+		"minimap.errorHighlight": "error-400",//?
+		"minimap.warningHighlight": "alert-100/60",//?,
+		"minimap.background": "card-950",
+		"minimapSlider.background": "highlight-100/53",
+		"minimapSlider.hoverBackground": "highlight-100/53",
+		"minimapSlider.activeBackground": "alert-100",
+		"minimapGutter.addedBackground": "highlight-100/60",
+		"minimapGutter.modifiedBackground": "alert-100/70",
+		"minimapGutter.deletedBackground": "error-400",
+  
+		
+  
+		
+		//group buttons on the top screen for each file opened
+		"editorGroup.border": "card-700",
+		"editorGroup.dropBackground": "highlight-100/22",
+		"editorGroupHeader.noTabsBackground": "card-950",
+		"editorGroupHeader.tabsBackground": "card-950",
+		"editorGroupHeader.border": "card-700",
+		"editorGroupHeader.tabsBorder": "card-700",
+		"editorGroup.emptyBackground": "card-950",
+		"editorGroup.focusedEmptyBorder": "highlight-100",
+		
+		//tab from editrgroup, each tab represent each fole opened
+		"tab.activeBackground": "card-700",
+		"tab.border": "card-700",
+		"tab.activeForeground": "accent-200",
+		"tab.activeBorder": "accent-200",
+		"tab.unfocusedActiveBorder": "highlight-100",
+		"tab.activeBorderTop": "accent-200",
+		"tab.unfocusedActiveBorderTop": "highlight-100",
+		"tab.unfocusedActiveBackground": "card-700",
+		"tab.lastPinnedBorder": "card-700",//?
+		"tab.inactiveBackground": "card-800",
+		"tab.unfocusedInactiveBackground": "card-800",
+		"tab.inactiveForeground": "highlight-100",
+		"tab.unfocusedActiveForeground": "highlight-100",
+		"tab.unfocusedInactiveForeground": "highlight-100",
+		"tab.hoverBackground": "card-700/49",
+		"tab.unfocusedHoverBackground": "card-700/49",
+		"tab.hoverForeground": "accent-200",
+		"tab.unfocusedHoverForeground": "highlight-100",
+		"tab.hoverBorder": "highlight-100",
+		"tab.unfocusedHoverBorder": "highlight-100",
+		"tab.activeModifiedBorder": "accent-200",
+		"tab.inactiveModifiedBorder": "card-700",
+		"tab.unfocusedActiveModifiedBorder": "highlight-100",//?
+		"tab.unfocusedInactiveModifiedBorder": "card-700",//?
+		"editorPane.background": "card-900",//?
+	  
+  
+		
+		//Editor colors
+		"editor.background": "card-900",
+		"editor.foreground": "notice-100",
+		"editorLineNumber.foreground": "card-500",
+		"editorLineNumber.activeForeground": "alert-100",
+		"editorLink.activeForeground": "accent-200",
+		"editorCursor.background": "card-900",
+		"editorCursor.foreground": "accent-200",
+  
+		
+  
+		
+		//selection text colors
+		"editor.selectionBackground": "accent-300/40",
+		"editor.selectionForeground": "accent-200",
+		"editor.inactiveSelectionBackground": "accent-300/25",
+		"editor.selectionHighlightBackground": "accent-300/25",
+		"editor.selectionHighlightBorder": "accent-200",
+		"editor.wordHighlightBackground": "accent-300/30",
+		"editor.wordHighlightBorder": "accent-300",
+		"editor.wordHighlightStrongBackground": "accent-300/30",
+		"editor.wordHighlightStrongBorder": "accent-300",
+		"editor.findMatchBackground": "card-800/73",
+		"editor.findMatchHighlightBackground": "accent-300/30",
+		"editor.findRangeHighlightBackground": "accent-300/30",
+		"editor.findMatchBorder": "highlight-100",//?
+		"editor.findMatchHighlightBorder": "highlight-100",
+		"editor.findRangeHighlightBorder": "highlight-100",
+		"editor.focusedStackFrameHighlightBackground": "accent-300/30",
+		"editor.hoverHighlightBackground": "accent-300/30",
+		"editor.lineHighlightBackground": "card-800",
+		"editor.symbolHighlightBorder": "highlight-100",
+		
+		
+  
+		
+		//search editor
+		"searchEditor.findMatchBackground": "highlight-100/20",//?
+		"searchEditor.findMatchBorder": "highlight-100",//?
+		"searchEditor.textInputBorder": "card-600",//?
+		
+  
+		"editor.lineHighlightBorder": "card-700/39",
+		"editor.rangeHighlightBackground": "accent-300/10",//?
+		"editor.rangeHighlightBorder": "highlight-100",//?
+		"editor.symbolHighlightBackground": "accent-300/10",//?
+		"editorWhitespace.foreground": "highlight-100",
+		"editorIndentGuide.background": "card-700",
+		"editorIndentGuide.activeBackground": "card-500",
+		"editorRuler.foreground": "accent-300/10",//?
+		"editor.onTypeRenameBackground": "accent-300/10",
+		"editorCodeLens.foreground": "highlight-100",
+		"editorLightBulb.foreground": "highlight-100",//?
+		"editorLightBulbAutoFix.foreground": "highlight-100",//?
+  
+		//brackets
+		"editorBracketMatch.background": "accent-300/10",
+		"editorBracketMatch.border": "highlight-100/51",
+  
+		//folding
+		"editor.foldBackground": "card-900",
+  
+  
+		
+		
+		//overview ruler
+		"editorOverviewRuler.background": "card-900",
+		"editorOverviewRuler.border": "card-700",
+		"editorOverviewRuler.findMatchForeground": "highlight-100",
+		"editorOverviewRuler.rangeHighlightForeground": "highlight-100",//?
+		"editorOverviewRuler.selectionHighlightForeground": "accent-200",//?
+		"editorOverviewRuler.wordHighlightForeground": "accent-300",//?
+		"editorOverviewRuler.wordHighlightStrongForeground": "accent-300",//?
+		"editorOverviewRuler.modifiedForeground": "alert-100/70",
+		"editorOverviewRuler.addedForeground": "highlight-100/60",
+		"editorOverviewRuler.deletedForeground": "error-400",
+		"editorOverviewRuler.errorForeground": "error-400",//?
+		"editorOverviewRuler.warningForeground": "alert-100/69",//?
+		"editorOverviewRuler.infoForeground": "highlight-100/60",//?
+		"editorOverviewRuler.bracketMatchForeground": "accent-300",
+		
+		//Error and warnings
+		"editorError.foreground": "error-400/71",
+		"editorError.border":"error-300",
+		"editorWarning.foreground": "alert-100/69",
+		"editorWarning.border":"alert-100/69",
+		"editorInfo.foreground": "highlight-100",
+		"editorInfo.border": "card-700",
+		"editorHint.border": "card-700",
+		"editorHint.foreground": "accent-200",
+  
+		
+		//Problems bar colors
+		"problemsErrorIcon.foreground": "error-400",
+		"problemsWarningIcon.foreground": "alert-100",
+		"problemsInfoIcon.foreground": "highlight-100",
+  
+		
+		//unused source code
+		"editorUnnecessaryCode.border": "card-700",
+		"editorUnnecessaryCode.opacity": "highlight-100",//?
+  
+		"editorGutter.background": "card-900/91",
+		"editorGutter.modifiedBackground": "alert-100/70",
+		"editorGutter.addedBackground": "highlight-100/60",
+		"editorGutter.deletedBackground": "error-400",
+		"editorGutter.commentRangeForeground": "card-500",
+		"editorGutter.foldingControlForeground": "highlight-100/60",
+  
+		
+		//diff editor colors
+		"diffEditor.border": "card-700",
+		"diffEditor.diagonalFill": "accent-300/10",
+		"diffEditor.insertedTextBackground": "accent-300/10",
+		"diffEditor.insertedTextBorder": "card-700",
+		"diffEditor.removedTextBackground": "accent-300/10",
+		"diffEditor.removedTextBorder": "card-700",
+  
+	  
+  
+  
+		
+  
+		//editor widget colors, find and replace box
+		"editorWidget.foreground": "highlight-100",
+		"editorWidget.background": "card-900/91",
+		"editorWidget.border": "card-600",
+		"editorWidget.resizeBorder": "card-600",
+	  
+		//editor suggest
+		"editorSuggestWidget.border": "card-600",
+		"editorSuggestWidget.background": "card-800",
+		"editorSuggestWidget.foreground": "alert-100/58",
+		"editorSuggestWidget.highlightForeground": "accent-200",
+		"editorSuggestWidget.selectedBackground": "card-700/58",
+  
+		"editorHoverWidget.foreground": "accent-200",
+		"editorHoverWidget.background": "card-800",
+		"editorHoverWidget.border": "highlight-100",
+		"editorHoverWidget.statusBarBackground": "card-800",
+  
+		//debugexception
+		"debugExceptionWidget.background": "alert-100",//?
+		"debugExceptionWidget.border": "card-600",
+  
+		//editor marker navigation
+		"editorMarkerNavigation.background": "card-800",
+		"editorMarkerNavigationError.background": "alert-100",
+		"editorMarkerNavigationWarning.background": "card-800",
+		"editorMarkerNavigationInfo.background": "alert-100/58",//?
+  
+		//peek view color, submenu of info about objects
+		"peekView.border": "card-600",
+		"peekViewEditor.background": "card-700",
+		"peekViewEditorGutter.background": "card-800",
+		"peekViewEditor.matchHighlightBackground": "accent-300/25",
+		"peekViewEditor.matchHighlightBorder": "accent-300",
+		"peekViewResult.background": "card-800",
+		"peekViewResult.fileForeground": "card-900",
+		"peekViewResult.lineForeground": "alert-100",
+		"peekViewResult.matchHighlightBackground": "accent-300/25",
+		"peekViewResult.selectionBackground": "card-700",
+		"peekViewResult.selectionForeground": "accent-200",
+		"peekViewTitle.background": "card-700",
+		"peekViewTitleDescription.foreground": "alert-100",
+		"peekViewTitleLabel.foreground": "alert-100",
+  
+		
+		//merge conflict colors
+		"merge.currentHeaderBackground": "highlight-100/8",
+		"merge.currentContentBackground": "card-600/49",
+		"merge.incomingHeaderBackground": "accent-300/25",
+		"merge.incomingContentBackground": "card-800/63",
+		"merge.border": "card-700",
+		"merge.commonHeaderBackground": "highlight-100",
+		"merge.commonContentBackground": "highlight-100/20",
+		"editorOverviewRuler.currentContentForeground": "highlight-100/44",
+		"editorOverviewRuler.incomingContentForeground": "alert-100",
+		"editorOverviewRuler.commonContentForeground": "highlight-100",
+  
+		
+  
+		//Panel colors, problems, output, debug console , terminal...
+		"panel.background": "card-950",
+		"panel.border": "card-700",
+		"panel.dropBorder": "highlight-100",//?
+		"panelTitle.activeBorder": "accent-200",
+		"panelTitle.activeForeground": "accent-200",
+		"panelTitle.inactiveForeground": "highlight-100/45",
+		"panelInput.border": "card-600",//?
+		"panelSection.border": "card-700",//?
+		"panelSection.dropBackground": "card-900",//?
+		"panelSectionHeader.background": "card-900",//?
+		"panelSectionHeader.foreground": "alert-100",//?
+		"panelSectionHeader.border": "card-700",
+  
+		//preview colors
+		"imagePreview.border": "card-700",
+  
+		//status bar colors, las bottom bar: git status, azure account, errors warning count
+		"statusBar.background": "card-900",
+		"statusBar.foreground": "alert-100",
+		"statusBar.border": "card-700",
+		"statusBar.debuggingBackground": "card-900",
+		"statusBar.debuggingForeground": "alert-100",
+		"statusBar.debuggingBorder": "card-700",
+		"statusBar.noFolderBackground": "card-900",
+		"statusBar.noFolderForeground": "alert-100",
+		"statusBar.noFolderBorder": "card-700",
+		"statusBarItem.activeBackground": "card-700",
+		"statusBarItem.hoverBackground": "card-700",
+		"statusBarItem.prominentForeground": "alert-100",
+		"statusBarItem.prominentBackground": "card-700",
+		"statusBarItem.prominentHoverBackground": "card-700",
+		"statusBarItem.remoteBackground": "card-700",
+		"statusBarItem.remoteForeground": "alert-100",
+  
+  
+		//Title bar colors
+		"titleBar.activeForeground": "accent-200",
+		"titleBar.activeBackground": "card-950",
+		"titleBar.inactiveBackground": "card-950",
+		"titleBar.inactiveForeground": "highlight-100/60",
+		"titleBar.border": "card-700",
+  
+	  
+		//Menu bar colors, each menu is file, edit, selection
+		"menubar.selectionForeground": "accent-200",
+		"menubar.selectionBackground": "card-700",
+		"menubar.selectionBorder": "accent-200",
+		"menu.foreground": "highlight-100",//?,
+		"menu.background": "card-950/83",//?
+		"menu.selectionForeground": "accent-200",//?
+		"menu.selectionBackground": "card-700",//?
+		"menu.selectionBorder": "accent-200",//?
+		"menu.separatorBackground": "card-700",//?
+		"menu.border": "card-600",//?
+		
+  
+  
+		//notifications
+		"notificationCenter.border": "card-600",//?
+		"notificationCenterHeader.foreground": "highlight-100",
+		"notificationCenterHeader.background": "card-800",
+		"notificationToast.border": "card-600",
+		"notifications.foreground": "highlight-100",
+		
+		//notebook background
+		"notifications.background": "card-950",
+  
+		"notifications.border": "card-600",
+		"notificationLink.foreground": "highlight-100",
+		"notificationsErrorIcon.foreground": "error-400",
+		"notificationsWarningIcon.foreground": "alert-100",
+		"notificationsInfoIcon.foreground": "highlight-100",
+  
+		//extensions
+		"extensionButton.prominentForeground": "card-700",
+		"extensionButton.prominentBackground": "highlight-100/60",
+		"extensionButton.prominentHoverBackground": "highlight-100",
+		"extensionBadge.remoteBackground": "card-700",
+		"extensionBadge.remoteForeground": "highlight-100/60",
+  
+		//quick picker colors CTRL + ALT + P SELECTION LIST
+		"pickerGroup.border": "card-700",
+		"pickerGroup.foreground": "highlight-100",
+		"quickInput.background": "card-900/85",
+		"quickInput.foreground": "highlight-100/60",
+		"quickInputTitle.background": "card-900/85",
+  
+		//integrated terminal colors
+		"terminal.background": "card-950",
+		"terminal.border": "card-700",
+		"terminal.foreground": "notice-100",
+		"terminal.ansiBlack": "card-700",
+		"terminal.ansiBlue": "promo-400",
+		"terminal.ansiBrightBlack": "card-500",
+		"terminal.ansiBrightBlue": "accent-200",
+		"terminal.ansiBrightCyan": "deco-xenon",
+		"terminal.ansiBrightGreen": "highlight-50",
+		"terminal.ansiBrightMagenta": "debug-200",
+		"terminal.ansiBrightRed": "error-300",
+		"terminal.ansiBrightWhite": "card-50",
+		"terminal.ansiBrightYellow": "alert-100",
+		"terminal.ansiCyan": "deco-argon",
+		"terminal.ansiGreen": "highlight-100",
+		"terminal.ansiMagenta": "debug-300",
+		"terminal.ansiRed": "error-300",
+		"terminal.ansiWhite": "notice-100",
+		"terminal.ansiYellow":"alert-100",
+		"terminal.selectionBackground": "accent-300/40",
+		"terminalCursor.background": "card-800",
+		"terminalCursor.foreground": "accent-200",
+  
+  
+		//debug colors
+		"debugToolBar.background": "card-800",
+		"debugToolBar.border": "card-600",
+		"editor.stackFrameHighlightBackground": "highlight-100",//?
+		"debugView.exceptionLabelForeground": "highlight-100",
+		"debugView.exceptionLabelBackground": "highlight-100/44",
+		"debugView.stateLabelBackground": "highlight-100/44",
+		"debugView.stateLabelForeground": "highlight-100",
+		"debugView.valueChangedHighlight": "highlight-100",
+	  
+		"debugTokenExpression.name": "highlight-100",//?
+		"debugTokenExpression.value": "highlight-100/44",//?
+		"debugTokenExpression.string": "highlight-100",//?
+		"debugTokenExpression.boolean": "highlight-100/44",//?
+		"debugTokenExpression.number": "highlight-100",//?
+		"debugTokenExpression.error": "highlight-100/44",//?
+  
+  
+		//welcome page
+		"welcomePage.background": "card-900",
+		"welcomePage.buttonBackground": "card-800/54",
+		"welcomePage.buttonHoverBackground": "card-700/64",
+		"walkThrough.embeddedEditorBackground": "alert-100",
+  
+		//source control colors
+		"scm.providerBorder": "card-600",
+  
+		//git colors
+		"gitDecoration.addedResourceForeground": "highlight-100",
+		"gitDecoration.modifiedResourceForeground": "alert-100",
+		"gitDecoration.stageModifiedResourceForeground": "alert-100",
+		"gitDecoration.deletedResourceForeground": "error-300",
+		"gitDecoration.stageDeletedResourceForeground": "error-300",
+		"gitDecoration.untrackedResourceForeground": "highlight-100",
+		"gitDecoration.ignoredResourceForeground": "card-500",
+		"gitDecoration.conflictingResourceForeground": "debug-200",
+		"gitDecoration.submoduleResourceForeground": "accent-200",
+  
+  
+		//settings UI editor colors
+		"settings.headerForeground": "highlight-100",
+		"settings.modifiedItemIndicator": "highlight-100",
+		"settings.dropdownBackground": "card-700",
+		"settings.dropdownForeground": "alert-100",
+		"settings.dropdownBorder": "highlight-100",
+		"settings.dropdownListBorder": "highlight-100",
+		"settings.checkboxBackground": "card-700",
+		"settings.checkboxForeground": "alert-100",
+		"settings.checkboxBorder": "card-600",
+		"settings.textInputBackground": "card-800",
+		"settings.textInputBorder": "card-600",
+		"settings.textInputForeground": "alert-100",
+		"settings.numberInputBackground": "card-800",
+		"settings.numberInputBorder": "card-600",
+		"settings.numberInputForeground": "alert-100",
+		"settings.focusedRowBackground": "card-700/45",
+		"notebook.focusedRowBorder": "highlight-100",
+		"notebook.rowHoverBackground": "card-900/25",
+  
+		//creadcrumbs colors
+		"breadcrumb.foreground": "highlight-100",
+		"breadcrumb.background": "card-900",
+		"breadcrumb.focusForeground": "accent-200",
+		"breadcrumb.activeSelectionForeground": "accent-200",
+		"breadcrumbPicker.background": "card-900",
+  
+		//Snippets colors
+		"editor.snippetTabstopHighlightBackground": "accent-300/50",
+		"editor.snippetTabstopHighlightBorder": "accent-300/50",
+		"editor.snippetFinalTabstopHighlightBackground": "accent-300/50",
+		"editor.snippetFinalTabstopHighlightBorder": "accent-300/50",
+  
+  
+		//symbol icons that appear in suggest code
+		"symbolIcon.arrayForeground": "alert-100",
+		"symbolIcon.booleanForeground": "deco-neon",
+		"symbolIcon.classForeground": "highlight-100",
+		"symbolIcon.colorForeground": "debug-200",
+		"symbolIcon.constantForeground": "deco-neon",
+		"symbolIcon.constructorForeground": "alert-100",
+		"symbolIcon.enumeratorForeground": "highlight-100",
+		"symbolIcon.enumeratorMemberForeground": "deco-neon",
+		"symbolIcon.eventForeground": "debug-200",
+		"symbolIcon.fieldForeground": "alert-100",
+		"symbolIcon.fileForeground": "highlight-100",
+		"symbolIcon.folderForeground": "highlight-100",
+		"symbolIcon.functionForeground": "alert-100",
+		"symbolIcon.interfaceForeground": "highlight-100",
+		"symbolIcon.keyForeground": "accent-200",
+		"symbolIcon.keywordForeground": "accent-300",
+		"symbolIcon.methodForeground": "alert-100",
+		"symbolIcon.moduleForeground": "accent-200",
+		"symbolIcon.namespaceForeground": "accent-200",
+		"symbolIcon.nullForeground": "deco-neon",
+		"symbolIcon.numberForeground": "deco-neon",
+		"symbolIcon.objectForeground": "alert-100",
+		"symbolIcon.operatorForeground": "alert-100/70",
+		"symbolIcon.packageForeground": "accent-200",
+		"symbolIcon.snippetForeground": "accent-200",
+		"symbolIcon.propertyForeground": "alert-100",
+		"symbolIcon.referenceForeground": "card-300",
+		"symbolIcon.stringForeground": "highlight-100",
+		"symbolIcon.structForeground": "highlight-100",
+		"symbolIcon.textForeground": "card-300",
+		"symbolIcon.typeParameterForeground": "highlight-100",
+		"symbolIcon.unitForeground": "deco-neon",
+		"symbolIcon.variableForeground": "notice-100",
+		
+		//debug icons color
+		"debugIcon.breakpointCurrentStackframeForeground": "accent-300/50",
+		"debugIcon.breakpointDisabledForeground": "card-500",
+		"debugIcon.breakpointForeground": "accent-200",//?
+		"debugIcon.breakpointStackframeForeground": "accent-300/50",//?
+		"debugIcon.breakpointUnverifiedForeground": "accent-300/50",//?
+		"debugIcon.continueForeground": "accent-200",//?
+		"debugIcon.disconnectForeground": "accent-200",//?
+		"debugIcon.pauseForeground": "accent-200",//?
+		"debugIcon.restartForeground": "accent-200",//?
+		"debugIcon.startForeground": "accent-200",//?
+		"debugIcon.stepBackForeground": "highlight-100/40",//?
+		"debugIcon.stepIntoForeground": "highlight-100/40",//?
+		"debugIcon.stepOutForeground": "highlight-100/40",//?
+		"debugIcon.stepOverForeground": "highlight-100/40",//?
+		"debugIcon.stopForeground": "accent-200",//?
+		"debugConsoleInputIcon.foreground": "accent-200",//?
+		"debugConsole.infoForeground": "accent-200",
+		"debugConsole.errorForeground": "accent-200",
+		"debugConsole.sourceForeground": "accent-200",//?
+		"debugConsole.warningForeground": "accent-200",//?
+  
+  
+		//notebook colors
+		"notebook.cellBorderColor": "card-700",
+		"notebook.focusedEditorBorder": "highlight-100",//?
+		"notebookStatusErrorIcon.foreground": "error-400",//?
+		"notebookStatusSuccessIcon.foreground": "highlight-100",//?
+		"notebookStatusRunningIcon.foreground": "accent-200",//?
+		"notebook.outputContainerBackgroundColor": "card-900",//?
+		"notebook.cellHoverBackground": "accent-300/50",//?
+		"notebook.cellToolbarSeparator": "card-900/85",//?
+		"notebook.focusedCellBackground": "card-800",//?
+		"notebook.focusedCellBorder": "highlight-100",//?
+		"notebook.cellStatusBarItemHoverBackground": "card-800",
+		"notebook.cellInsertionIndicator": "accent-300",
+		"notebookScrollbarSlider.background": "highlight-100/29",//?
+		"notebookScrollbarSlider.hoverBackground": "highlight-100/58",//?
+		"notebookScrollbarSlider.activeBackground": "highlight-100/58",//?
+		"notebook.symbolHighlightBackground": "highlight-100",//?
+
+		"dart.closingLabels": "card-500",
+  
+		//charts
+		"charts.foreground": "card-900",
+		"charts.lines": "alert-100",
+		"charts.red": "error-400",
+		"charts.blue": "promo-400",
+		"charts.yellow": "alert-100",
+		"charts.orange": "error-300",
+		"charts.green": "alert-100",
+		"charts.purple": "accent-300/40",
+    
+	},
+	"name": "Quasar"
+}
